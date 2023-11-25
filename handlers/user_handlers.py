@@ -1,13 +1,13 @@
 from aiogram import F, Router
 from aiogram.filters import Command, CommandStart
 from aiogram.types import CallbackQuery, Message
-from BookBot.database.database import init_db, add_user
-from BookBot.filters.filters import IsDelBookmarkCallbackData, IsDigitCallbackData
-from BookBot.keyboards.bookmarks_kb import (create_bookmarks_keyboard,
+from Book_bot.database.database import init_db, add_user
+from Book_bot.filters.filters import IsDelBookmarkCallbackData, IsDigitCallbackData
+from Book_bot.keyboards.bookmarks_kb import (create_bookmarks_keyboard,
                                             create_edit_keyboard)
-from BookBot.keyboards.pagination_kb import create_pagination_keyboard
-from BookBot.lexicon.lexicon import LEXICON
-from BookBot.services.file_handling import book
+from Book_bot.keyboards.pagination_kb import create_pagination_keyboard
+from Book_bot.lexicon.lexicon import LEXICON
+from Book_bot.services.file_handling import book
 
 router = Router()
 

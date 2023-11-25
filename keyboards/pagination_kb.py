@@ -1,4 +1,4 @@
-from BookBot.lexicon.lexicon import LEXICON
+from Book_bot.lexicon.lexicon import LEXICON
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 

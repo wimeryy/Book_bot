@@ -1,7 +1,7 @@
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from aiogram.utils.keyboard import InlineKeyboardBuilder
-from BookBot.lexicon.lexicon import LEXICON
-from BookBot.services.file_handling import book
+from Book_bot.lexicon.lexicon import LEXICON
+from Book_bot.services.file_handling import book
 
 
 def create_bookmarks_keyboard(*args: int) -> InlineKeyboardMarkup:

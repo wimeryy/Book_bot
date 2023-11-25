@@ -1,7 +1,7 @@
 from aiogram import Bot
 from aiogram.types import BotCommand
 
-from BookBot.lexicon.lexicon import LEXICON_COMMANDS
+from Book_bot.lexicon.lexicon import LEXICON_COMMANDS
 
 
 
