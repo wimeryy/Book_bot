@@ -1,7 +1,7 @@
 
 
 
-BOOK_PATH = r'C:\Users\wimer\PycharmProjects\pythonProject\BookBot\Book\book.txt'
+BOOK_PATH = r'C:\Users\wimer\PycharmProjects\pythonProject\Book_bot\Book\book.txt'
 PAGE_SIZE = 1050
 
 book: dict[int, str] = {}
